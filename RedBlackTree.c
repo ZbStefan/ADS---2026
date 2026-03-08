@@ -300,7 +300,7 @@ int main()
     int s = 60;
     printf("Searching for %d: %s\n", s, Search(root, s) ? "Found" : "Not Found");
 
-    printf("Deleting 70...\n");
+    printf("Deleting 70\n");
     Delete(&root, 70);
 
     printf("Tree after deletion: ");
@@ -308,4 +308,5 @@ int main()
     printf("\n");
 
     return 0;
+
 }
